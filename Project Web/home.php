@@ -31,7 +31,7 @@ if (isset($_POST['insert'])) {
 }
 
 // Ambil data semua pengguna
-$result = getAllUsers();
+$result = getAllUsersAdminDanCustomer();
 ?>
 
 <!DOCTYPE html>
