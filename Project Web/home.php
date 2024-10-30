@@ -3,6 +3,8 @@ require("database.php");
 require("fungsi.php");
 session_start();
 
+$a = 0;
+
 // Periksa apakah pengguna telah login
 if (!isset($_SESSION['u_nama'])) {
     header("Location: login.php"); // Arahkan ke halaman login jika belum login
